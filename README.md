@@ -22,15 +22,13 @@ PairedReadGenomeReconstructor is a Python script that reconstructs a genome stri
 * path (list): A list of nodes representing the Eulerian path.
 * PathToGenome(path, k, d)
 
-Purpose: Reconstructs the genome string from the Eulerian path.
+# Purpose:
+* Reconstructs the genome string from the Eulerian path.
 
-Parameters:
-
-path (list): Eulerian path obtained from the graph.
-
-k (int): Length of each k-mer.
-
-d (int): Gap between paired k-mers.
+# Parameters:
+* path (list): Eulerian path obtained from the graph.
+* k (int): Length of each k-mer.
+* d (int): Gap between paired k-mers.
 
 # Returns:
 * genome (str): Reconstructed genome string.
@@ -40,7 +38,6 @@ d (int): Gap between paired k-mers.
 * k (int), d (int), paired_reads (list): As described above.
 # Returns:
 * text (str): Reconstructed genome string from paired reads.
-
 
 
 # Example Usage
